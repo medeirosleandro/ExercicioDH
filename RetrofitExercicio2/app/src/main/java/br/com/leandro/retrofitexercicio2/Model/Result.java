@@ -6,8 +6,15 @@ public class Result {
 
     private String title;
     private int year;
+    private Id ids;
 
-    //private List<Id> ids;
+    public Id getIds() {
+        return ids;
+    }
+
+    public void setIds(Id ids) {
+        this.ids = ids;
+    }
 
     public String getTitle() {
         return title;
@@ -25,13 +32,7 @@ public class Result {
         this.year = year;
     }
 
-   // public List<Id> getIds() {
-  //      return ids;
-  //  }
 
- //   public void setIds(List<Id> ids) {
-  //      this.ids = ids;
-  //  }
 }
 
 

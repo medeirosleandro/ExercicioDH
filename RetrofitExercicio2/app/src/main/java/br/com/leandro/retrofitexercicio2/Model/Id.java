@@ -45,4 +45,14 @@ public class Id {
     public void setTmdb(int tmdb) {
         this.tmdb = tmdb;
     }
+
+    @Override
+    public String toString() {
+        return "Id{" +
+                "trakt=" + trakt +
+                ", slug='" + slug + '\'' +
+                ", imdb='" + imdb + '\'' +
+                ", tmdb=" + tmdb +
+                '}';
+    }
 }

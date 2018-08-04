@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
                     for(Result r : ListaDeResultados.results){
 
-                        Log.i(TAG, String.format("%s: %s",r.getTitle(),r.getYear()));
+                        Log.i(TAG, String.format("%s : %s  : %s:",r.getTitle(),r.getYear(),r.getIds()));
 
 
                         //Separar um resultado do outro
